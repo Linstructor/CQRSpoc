@@ -1,0 +1,21 @@
+{
+  "name": "CQRSpoc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Linstructor/CQRSpoc.git",
+  "author": "Tristan <tristan.morisot@viacesi.fr>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/graphql": "^14.2.2",
+    "@types/jest": "^24.0.15",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "graphql": "^14.4.2",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  }
+}
