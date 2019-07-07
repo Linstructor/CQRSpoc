@@ -6,6 +6,9 @@
   "author": "Tristan <tristan.morisot@viacesi.fr>",
   "license": "MIT",
   "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/express-graphql": "^0.8.0",
+    "@types/geojson": "^7946.0.7",
     "@types/graphql": "^14.2.2",
     "@types/jest": "^24.0.15",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
@@ -17,5 +20,18 @@
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "geojson": "^0.5.0",
+    "graphql": "^14.4.2",
+    "mariadb": "^2.0.5"
+  },
+  "scripts": {
+    "buildQuery": "tsc --project src/Query",
+    "devQuery": "nodemon src/Query/dist/querymain.js",
+    "buildCommands": "tsc --project src/Commands",
+    "devCommands": "nodemon src/Commands/dist/commandsmain.js"
   }
 }
